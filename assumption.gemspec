@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/DBuckley0126/Assumption-CLI"
   spec.license       = "MIT"
 
-  spec.metadata["allowed_push_host"] = "http://rubygems.org"
+  spec.metadata["allowed_push_host"] = "http://localhost:9292/"
 
   spec.metadata["homepage_uri"] = "https://github.com/DBuckley0126/CLI-Game-Assumption"
   spec.metadata["source_code_uri"] = "https://github.com/DBuckley0126/CLI-Game-Assumption"
