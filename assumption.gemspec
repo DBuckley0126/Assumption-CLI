@@ -10,10 +10,10 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Flatiron: CLI Scrapper Game"
   spec.description   = "A Command-line interface game which the user can select a year and play assume if a song is higher or lower in the chart"
-  spec.homepage      = "https://github.com/DBuckley0126/CLI-Game-Assumption"
+  spec.homepage      = "https://github.com/DBuckley0126/Assumption-CLI"
   spec.license       = "MIT"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
+  spec.metadata["allowed_push_host"] = "http://rubygems.org"
 
   spec.metadata["homepage_uri"] = "https://github.com/DBuckley0126/CLI-Game-Assumption"
   spec.metadata["source_code_uri"] = "https://github.com/DBuckley0126/CLI-Game-Assumption"
@@ -34,5 +34,4 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'pry', '>= 0'
   spec.add_dependency 'nokogiri', '>= 0'
   spec.add_dependency 'tco', '~> 0.1.8'
-  spec.add_dependency 'timeout'
 end
