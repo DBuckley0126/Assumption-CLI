@@ -2,6 +2,7 @@ require 'tco'
 require 'open-uri'
 require 'nokogiri'
 require 'io/console'
+require 'pry'
 
 
 require_relative '../lib/assumption/version'

@@ -13,11 +13,11 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/DBuckley0126/Assumption-CLI"
   spec.license       = "MIT"
 
-  spec.metadata["allowed_push_host"] = "http://localhost:9292/"
+  spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
-  spec.metadata["homepage_uri"] = "https://github.com/DBuckley0126/CLI-Game-Assumption"
-  spec.metadata["source_code_uri"] = "https://github.com/DBuckley0126/CLI-Game-Assumption"
-  spec.metadata["changelog_uri"] = "https://github.com/DBuckley0126/CLI-Game-Assumption"
+  spec.metadata["homepage_uri"] = "https://github.com/DBuckley0126/Assumption-CLI"
+  spec.metadata["source_code_uri"] = "https://github.com/DBuckley0126/Assumption-CLI"
+  spec.metadata["changelog_uri"] = "https://github.com/DBuckley0126/Assumption-CLI"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
@@ -32,7 +32,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'bundler', '~> 2.0'
   spec.add_dependency 'rake', '~> 10.0'
   spec.add_dependency 'minitest', '~> 5.0'
-  spec.add_dependency 'pry', '>= 0'
-  spec.add_dependency 'nokogiri', '>= 0'
+  spec.add_dependency 'nokogiri', '~> 1.10'
   spec.add_dependency 'tco', '~> 0.1.8'
 end

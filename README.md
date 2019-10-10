@@ -21,7 +21,7 @@ Or install it yourself as:
 
 ## Usage
 
-You will be promted to enter a year between 1952 - 2019.
+You will be promted to enter a year between 1952 - 2019, you can also enter 'random' to select a random year.
 Press enter and you will be shown 2 songs from the top 100 chart music from that year.
 
 You can enter 'h' to say that the second song is higher up in the chart than the first presented song,

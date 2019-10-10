@@ -23,20 +23,26 @@ class Assumption::CLI
   private
 
   def year_input
-    @input = gets.to_i
-
-    if (1954..2019).include?(@input)
-      Assumption::Game.new(@input)
-    elsif @input.to_s.size != 4
+    @input = gets
+    #binding.pry
+    if (1954..2019).include?(@input.to_i)
+      Assumption::Game.new(@input.to_i)
+    elsif @input.strip == "random"
+      Assumption::Game.new(random_year)
+    elsif @input.strip.to_s.size != 4
       puts 'Must be 4 digits' 
       year_input
-    elsif !(1954..2019).include?(@input)
+    elsif !(1954..2019).include?(@input.to_i)
       puts 'Must be within 1954-2019'
       year_input
     else
        puts 'Error'
        exit
     end
+  end
+
+  def random_year
+    rand(1954..2019)
   end
 
 end
