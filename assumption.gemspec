@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["dannyboy.msn@hotmail.com"]
 
   spec.summary       = "Flatiron: CLI Scrapper Game"
-  spec.description   = "A Command-line interface game which the user can select a year and play assume if a song is higher or lower in the chart"
+  spec.description   = "A Command-line-interface music chart game where the user has to make a assumption if a song is higher or lower in the chart for a chosen year!"
   spec.homepage      = "https://github.com/DBuckley0126/Assumption-CLI"
   spec.license       = "MIT"
 
