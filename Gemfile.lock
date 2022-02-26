@@ -11,10 +11,12 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    mini_portile2 (2.4.0)
+    mini_portile2 (2.8.0)
     minitest (5.12.2)
-    nokogiri (1.10.4)
-      mini_portile2 (~> 2.4.0)
+    nokogiri (1.13.3)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
+    racc (1.6.0)
     rake (10.5.0)
     tco (0.1.8)
 
